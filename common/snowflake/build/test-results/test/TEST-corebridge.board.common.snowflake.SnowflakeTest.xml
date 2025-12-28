@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="corebridge.board.common.snowflake.SnowflakeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-12-28T12:08:57.675Z" hostname="Aquageekui-iMac.local" time="0.645">
+  <properties/>
+  <testcase name="nextIdTest()" classname="corebridge.board.common.snowflake.SnowflakeTest" time="0.392"/>
+  <testcase name="nextIdPerformanceTest()" classname="corebridge.board.common.snowflake.SnowflakeTest" time="0.251"/>
+  <system-out><![CDATA[times = 249 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
