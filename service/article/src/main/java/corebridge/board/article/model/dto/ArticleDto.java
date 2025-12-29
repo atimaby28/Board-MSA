@@ -31,7 +31,7 @@ public class ArticleDto {
         private String content;
         private Long boardId;
         private Long writerId;
-        private LocalDateTime createAt;
+        private LocalDateTime createdAt;
         private LocalDateTime modifiedAt;
 
         public static ArticleDto.ArticleResponse from(Article article) {
@@ -41,7 +41,7 @@ public class ArticleDto {
                     .content(article.getContent())
                     .boardId(article.getBoardId())
                     .writerId(article.getWriterId())
-                    .createAt(article.getCreateAt())
+                    .createdAt(article.getCreatedAt())
                     .modifiedAt(article.getModifiedAt())
                     .build();
         }

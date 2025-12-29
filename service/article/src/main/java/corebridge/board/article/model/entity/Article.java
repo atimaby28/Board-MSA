@@ -18,7 +18,7 @@ public class Article {
     private String content;
     private Long boardId; // shard key
     private Long writerId;
-    private LocalDateTime createAt;
+    private LocalDateTime createdAt;
     private LocalDateTime modifiedAt;
 
     public static Article create(Long articleId, String title, String content, Long boardId, Long writerId) {
@@ -29,8 +29,8 @@ public class Article {
         article.boardId = boardId;
         article.writerId = writerId;
 
-        article.createAt = LocalDateTime.now();
-        article.modifiedAt = article.createAt;
+        article.createdAt = LocalDateTime.now();
+        article.modifiedAt = article.createdAt;
 
         return article;
     }
